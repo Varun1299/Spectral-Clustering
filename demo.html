@@ -13456,6 +13456,291 @@ div#notebook {
 
   </div>
 
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#nbi:hide_in</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot;## Parameters for the Demo</span><span class="se">\n</span><span class="s2"> ------------------------------------ </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot;**K**: Choose the number of clusters to be made.</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot;**Data_Type**: Choose the structure of the data being clustered. You can choose from: </span><span class="se">\n</span><span class="s2"> - *Blob*: isotropic Gaussian blobs </span><span class="se">\n</span><span class="s2"> - *Moons*: two interleaving half circles </span><span class="se">\n</span><span class="s2"> - *Circle*: two concentric circles </span><span class="se">\n</span><span class="s2"> - *Random*: Random distribution of points </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot;**N_samples**: Choose the number of samples being clustered</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot;**Seed**: change the random state of the data being clustered.</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot;**Noise**: change the level of noise being introduced into the data being clustered</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h2 id="Parameters-for-the-Demo">Parameters for the Demo<a class="anchor-link" href="#Parameters-for-the-Demo">&#182;</a></h2><hr>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<p><strong>K</strong>: Choose the number of clusters to be made.</p>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<p><strong>Data_Type</strong>: Choose the structure of the data being clustered. You can choose from:</p>
+<ul>
+<li><em>Blob</em>: isotropic Gaussian blobs </li>
+<li><em>Moons</em>: two interleaving half circles </li>
+<li><em>Circle</em>: two concentric circles </li>
+<li><em>Random</em>: Random distribution of points </li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<p><strong>N_samples</strong>: Choose the number of samples being clustered</p>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<p><strong>Seed</strong>: change the random state of the data being clustered.</p>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<p><strong>Noise</strong>: change the level of noise being introduced into the data being clustered</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#nbi:hide_in</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot;## Why Spectral Clustering? </span><span class="se">\n</span><span class="s2"> -------------------------------&quot;</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot;Clustering is one of the most widely used techniques for exploratory data analysis. While k-means is popular due to its simplicity, it fails to give the expected clusters in cases where the aggregate shape of the points defines better clusters than naively checking for the nearest neighbors. Spectral clustering is a more efficient algorithm in these cases. The basic idea behind spectral clustering is to reduce the dimensionality of the data by using the most important eigenvectors, and then applying k-means on this transformed feature space.</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h2 id="Why-Spectral-Clustering?">Why Spectral Clustering?<a class="anchor-link" href="#Why-Spectral-Clustering?">&#182;</a></h2><hr>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<p>Clustering is one of the most widely used techniques for exploratory data analysis. While k-means is popular due to its simplicity, it fails to give the expected clusters in cases where the aggregate shape of the points defines better clusters than naively checking for the nearest neighbors. Spectral clustering is a more efficient algorithm in these cases. The basic idea behind spectral clustering is to reduce the dimensionality of the data by using the most important eigenvectors, and then applying k-means on this transformed feature space.</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#nbi:hide_in</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot;## The Algorithm </span><span class="se">\n</span><span class="s2"> -------------------------------&quot;</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot;The stages of the algorithm are, assuming k clusters are present: </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot; - Construct a nearest neighbours graph (KNN graph) or radius based graph. </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot; - Choose the eigenvectors corresponding to the lowest-k eigen values. </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot; -  Embed the data points in low dimensional space (spectral embedding) in which the clusters are more obvious with the use of eigenvectors of the graph Laplacian. </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot; -  Apply k-means on the transformed data, and return the labels obtained for the original data points. </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h2 id="The-Algorithm">The Algorithm<a class="anchor-link" href="#The-Algorithm">&#182;</a></h2><hr>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<p>The stages of the algorithm are, assuming k clusters are present:</p>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<ul>
+<li>Construct a nearest neighbours graph (KNN graph) or radius based graph. </li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<ul>
+<li>Choose the eigenvectors corresponding to the lowest-k eigen values. </li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<ul>
+<li>Embed the data points in low dimensional space (spectral embedding) in which the clusters are more obvious with the use of eigenvectors of the graph Laplacian. </li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<ul>
+<li>Apply k-means on the transformed data, and return the labels obtained for the original data points. </li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
 
 
 <!-- Loads nbinteract package -->
